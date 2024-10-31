@@ -1,0 +1,29 @@
+{
+  "name": "internet-forum",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido em Node.JS destinado a criação de um simples fórum com perguntas, respostas e tópicos",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hoyasumii/internet-forum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hoyasumii/internet-forum/issues"
+  },
+  "homepage": "https://github.com/Hoyasumii/internet-forum#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "slugify": "^1.6.6",
+    "sqlite3": "^5.1.6"
+  }
+}
